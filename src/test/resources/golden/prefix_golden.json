@@ -1,0 +1,4 @@
+{
+  "userId": "${json-unit.matches:prefixMatcher}",
+  "role": "admin"
+}

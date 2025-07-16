@@ -1,0 +1,8 @@
+{
+  "orderId": "${json-unit.regex}ORD-\\d+",
+  "orderDate": "${json-unit.matches:yyyy-MM-dd}",
+  "orderPlacedAt": "${json-unit.any-string}",
+  "expectedDeliveryDate": "${json-unit.matches:yyyy-MM-dd}",
+  "isExpressDelivery": false,
+  "itemCount": 2
+}

@@ -16,6 +16,7 @@ public class UuidMatcherSteps {
 
     @When("the API returns JSON:")
     public void api_returns_json(String docString) {
+        System.out.println("[LOG] Received JSON: " + docString);
         this.actualJson = docString;
     }
 
